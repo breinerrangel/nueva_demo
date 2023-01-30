@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/006/852/543/non_2x/people-working-and-conference-vector.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+header{
+    
+    display: flex;
+    justify-content: flex-start;
+}
+nav{
+  
+    display: flex;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 20px;
+    background-color:rgb(87, 202, 164);
+
+
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding: 20px;
+
+}
+.menu li{
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+.menu li a:hover{
+    color: blue;
+    cursor: pointer;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+}
+.img1{
+    height: 280px;
+    float: right;
+    margin-left: 10px;
+    margin-right: 15px;
+}
+p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 8px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+   
+   
+}
+.a{
+    font-size: 20px;
+  
+    font-family: sans-serif;
+    display: flex;
+   gap: 10px;
+   color: white;
+   font-weight: bold;
+}
+#pagina_quienes_somos{
+    background-color: rgba(10, 10, 10, 0.185);
+}
+.sd{
+    font-size: 25px;
+    color: black;
+}
+.hola{
+    height: 400px;
+    
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
